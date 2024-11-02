@@ -1,0 +1,40 @@
+/* static/style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header, section, footer {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 0.9rem;
+    color: #777;
+}
