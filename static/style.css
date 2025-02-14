@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     color: #fff;
@@ -13,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url("{{ url_for('static', filename='renderback.jpg') }}") no-repeat center center/cover;
+    background: url("../static/renderback.jpg") no-repeat center center/cover;
     padding: 20px;
     text-align: center;
 }
