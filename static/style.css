@@ -7,21 +7,24 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f4f4f4;
+    background: url("{{ url_for('static', filename='back.jpg') }}") no-repeat center center/cover;
     padding: 20px;
+    text-align: center;
 }
 
 header, section, footer {
     max-width: 600px;
     width: 100%;
     margin: 20px 0;
-    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 15px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -34,7 +37,18 @@ p {
     line-height: 1.5;
 }
 
+a {
+    color: #ffd700; /* Gold color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
     font-size: 0.9rem;
-    color: #777;
+    color: #ddd;
+    padding: 10px;
 }
